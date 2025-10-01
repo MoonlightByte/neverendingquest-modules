@@ -152,7 +152,7 @@
       "npcs": [
         {
           "name": "Mayor Tilda Bramble",
-          "description": "The energetic, pragmatic mayor of Greenfields Vale, orchestrating festival arrangements, greeting newcomers, and ensuring everyone feels welcome. She hides hints of worry beneath her cheery demeanor, especially if the scarecrow effigy is mentioned.",
+          "description": "Halfling, female, South Asian heritage. Energetic and pragmatic with warm brown skin, thick black hair in a practical braid, and bright copper-brown eyes. The mayor of Greenfields Vale, she orchestrates festival arrangements, greets newcomers, and ensures everyone feels welcome. She hides hints of worry beneath her cheery demeanor, especially if the scarecrow effigy is mentioned.",
           "attitude": "Friendly and hospitable, though distracted by festival pressures and recent omens."
         },
         {
@@ -162,7 +162,7 @@
         },
         {
           "name": "Oswin Peverell",
-          "description": "Human Fighter, male. Tall, broad-shouldered, with straw-blond hair cut unevenly and dirt-streaked hands. Always smells faintly of hay and sweat. Wears patched linen and leather arm wraps, carries a farmer's pitchfork strapped across his back. After the first scarecrow fight, if the player speaks to him, he says he can't abandon others and offers to fight alongside them.",
+          "description": "Human Fighter, male, East Asian heritage. Tall, broad-shouldered, with straight black hair cut unevenly and sun-bronzed skin. Dirt-streaked hands. Always smells faintly of hay and sweat. Wears patched linen and leather arm wraps, carries a farmer's pitchfork strapped across his back. After the first scarecrow fight, if the player speaks to him, he says he can't abandon others and offers to fight alongside them.",
           "attitude": "Stubborn but nervous; knocks three times on wooden surfaces before acting."
         }
       ],
@@ -268,7 +268,7 @@
       "npcs": [
         {
           "name": "Farmhand Jo",
-          "description": "A young, nervous farmhand drinking away their nerves after witnessing something unnatural in the fields last night. Jo is eager to talk if plied with kindness\u2014or drink.",
+          "description": "Half-Elf, non-binary (they/them), Indigenous heritage. Young with shoulder-length black hair, copper-tan skin dotted with freckles, and nervous hazel eyes. A nervous farmhand drinking away their nerves after witnessing something unnatural in the fields last night. Jo is eager to talk if plied with kindness or drink.",
           "attitude": "Anxious, easily startled, but desperate for someone to believe them."
         }
       ],
@@ -336,7 +336,7 @@
       "npcs": [
         {
           "name": "Miller Boren",
-          "description": "The burly, superstitious miller drowns his worries here, telling tall tales about restless spirits and warning of a coming blight. He knows old secrets about the festival's origins, but shares them only with those who earn his trust.",
+          "description": "Dwarf, male, with dark umber skin and a thick black beard woven with grain charms. Burly and superstitious, he drowns his worries here, telling tall tales about restless spirits and warning of a coming blight. He knows old secrets about the festival's origins, but shares them only with those who earn his trust.",
           "attitude": "Gruff, suspicious of outsiders, but softens with shared drinks or earned respect."
         }
       ],
@@ -404,7 +404,7 @@
       "npcs": [
         {
           "name": "Groundskeeper Hedwick",
-          "description": "An elderly caretaker who tends the shrine and churchyard, armed with blessed tools and protective charms. He's seen strange shadows moving between the headstones at night and begs for help in sanctifying the grounds before the curse spreads further.",
+          "description": "Gnome, male, Middle Eastern heritage. Elderly with weathered olive-brown skin, a white beard, and sharp dark eyes. He tends the shrine and churchyard, armed with blessed tools and protective charms. He's seen strange shadows moving between the headstones at night and begs for help in sanctifying the grounds before the curse spreads further.",
           "attitude": "Anxious but determined, grateful for any aid in protecting the sacred space."
         },
         {
