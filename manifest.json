@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-30",
+  "modules": [
+    {
+      "name": "The_Pumpkin_Kings_Curse",
+      "displayName": "The Pumpkin King's Curse",
+      "version": "1.0.0",
+      "author": "MoonlightByte",
+      "releaseDate": "2025-09-30",
+      "levels": "1-3",
+      "theme": "Halloween Horror",
+      "estimatedHours": "4-6",
+      "difficulty": "Medium",
+      "description": "A cursed harvest moon rises over Hollowfen, and the dreaded Pumpkin King awakens. Navigate haunted fields, creeping graveyards, and a living mansion to break the curse before the final midnight bell tolls.",
+      "features": [
+        "7 recruitable NPCs with unique personalities",
+        "Multi-phase boss encounter with environmental hazards",
+        "Fear mechanics and courage boons",
+        "Rich exploration with optional side quests",
+        "Atmospheric Halloween setting"
+      ],
+      "areas": 6,
+      "locations": 27,
+      "recommendedPartySize": "3-5 players",
+      "tags": ["horror", "halloween", "undead", "curses", "seasonal"],
+      "downloadUrl": "https://github.com/MoonlightByte/neverendingquest-modules/tree/main/The_Pumpkin_Kings_Curse",
+      "status": "ready"
+    }
+  ]
+}

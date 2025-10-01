@@ -1,0 +1,47 @@
+# Exclude live game files (contain player progress)
+# Only track BU (backup/clean source) files
+
+# Live area files
+**/areas/*.json
+!**/areas/*_BU.json
+
+# Live module files
+module_plot.json
+module_context.json
+validation_report.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Game data that shouldn't be in source
+**/saved_games/
+**/characters/*.json
+!**/characters/.gitkeep
+**/conversation_history/
+campaign_archives/
+campaign_summaries/
+
+# Temp and backup files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
