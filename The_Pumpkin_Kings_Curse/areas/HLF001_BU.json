@@ -63,12 +63,20 @@
         {
           "name": "The Pumpkin King (Final Boss)",
           "description": "A towering scarecrow-plant hybrid wreathed in smoke and flame, wielding a burning scythe. Its jack-o'lantern head blazes with unholy fire as it commands the cursed harvest.",
-          "stats": "AC 16, HP 95, Speed 30 ft. STR 18, DEX 10, CON 16, INT 10, WIS 12, CHA 14. Legendary Resistance (1/Day), Fear Aura (DC 13), Regeneration 10 HP/turn unless throne destroyed or fire damage taken after Ember Gourd presented."
+          "stats": "AC 16, HP 95, Speed 30 ft. STR 18, DEX 10, CON 16, INT 10, WIS 12, CHA 14. Legendary Resistance (1/Day), Fear Aura (DC 13), Regeneration 10 HP/turn unless throne destroyed or fire damage taken after Ember Gourd presented.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         },
         {
           "name": "Pumpkin Stalkers",
           "description": "2-4 minions that spawn in waves at 70% and 30% HP. They explode on death dealing 1d6 piercing damage in 5 ft radius.",
-          "stats": "AC 13, HP 22 each, Speed 25 ft. Death Burst: DC 11 DEX save or 1d6 piercing."
+          "stats": "AC 13, HP 22 each, Speed 25 ft. Death Burst: DC 11 DEX save or 1d6 piercing.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -92,7 +100,9 @@
           "detectDC": 18,
           "disableDC": 20,
           "triggerDC": 15,
-          "damage": "3d8 necrotic + restrained (ritual circles activate when stepped on, draining life force and binding the victim with spectral vines)"
+          "damage": "3d8 necrotic + restrained (ritual circles activate when stepped on, draining life force and binding the victim with spectral vines)",
+          "name": "Necrotic Trap",
+          "description": "A trap that deals 3d8 necrotic + restrained (ritual circles activate when stepped on, draining life force and binding the victim with spectral vines) damage (DC 18 to detect)."
         }
       ],
       "dcChecks": [

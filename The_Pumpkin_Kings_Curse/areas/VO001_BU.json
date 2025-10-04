@@ -129,7 +129,7 @@
         },
         {
           "name": "Amanita Gorse",
-          "description": "A young tiefling herbalist who serves as quartermaster, known for her dry wit and knowledge of the local flora\u2014especially dangerous ones.",
+          "description": "A young tiefling herbalist who serves as quartermaster, known for her dry wit and knowledge of the local flora—especially dangerous ones.",
           "attitude": "Helpful to those with genuine need; suspicious of outsiders asking too many questions."
         }
       ],
@@ -182,7 +182,7 @@
       "locationId": "B02",
       "name": "Twilight Veil Gate",
       "type": "gate",
-      "description": "Framed by arching brambles and crowned by faded festival ribbons, the Twilight Veil Gate marks the boundary between the safety of the village and the wild mysteries of the Tanglewood Verge. Twilight always seems to linger here, and the air is thick with anticipation\u2014a threshold between the mundane and the magical.",
+      "description": "Framed by arching brambles and crowned by faded festival ribbons, the Twilight Veil Gate marks the boundary between the safety of the village and the wild mysteries of the Tanglewood Verge. Twilight always seems to linger here, and the air is thick with anticipation—a threshold between the mundane and the magical.",
       "coordinates": "X2Y1",
       "connectivity": [
         "B01",
@@ -224,7 +224,7 @@
       "traps": [],
       "dcChecks": [
         "Insight DC 11: Sense Silas is secretly afraid of something on the other side.",
-        "Perception DC 13: Spot a scrap of fur on the brambles\u2014evidence of the missing dog."
+        "Perception DC 13: Spot a scrap of fur on the brambles—evidence of the missing dog."
       ],
       "accessibility": "Normally open at dawn and dusk; locked at night except for emergencies or with warden's permission.",
       "dangerLevel": "Medium",
@@ -241,7 +241,7 @@
       "locationId": "B03",
       "name": "Lantern Hollow Cottage",
       "type": "residence",
-      "description": "Nestled beneath ancient hazel trees, Lantern Hollow Cottage is a patchwork structure of crooked brick and mossy wood. Dozens of lanterns\u2014some magical, some mundane\u2014hang from every eave, lighting the garden with a perpetual, wavering glow. The air is thick with the scent of herbs, and the ground is soft with layers of fallen leaves.",
+      "description": "Nestled beneath ancient hazel trees, Lantern Hollow Cottage is a patchwork structure of crooked brick and mossy wood. Dozens of lanterns—some magical, some mundane—hang from every eave, lighting the garden with a perpetual, wavering glow. The air is thick with the scent of herbs, and the ground is soft with layers of fallen leaves.",
       "coordinates": "X3Y1",
       "connectivity": [
         "B02"
@@ -264,7 +264,11 @@
         {
           "name": "Shadow Creeper",
           "description": "A small, inky-black fey creature that slides along the walls, drawn to dim corners and the faint light of the lanterns. It is mostly harmless but mischievous, causing pranks or minor illusions.",
-          "stats": "AC 13, HP 5, Stealth +5, Immune to mundane weapons"
+          "stats": "AC 13, HP 5, Stealth +5, Immune to mundane weapons",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -333,7 +337,11 @@
         {
           "name": "Stirge Swarm",
           "description": "A cluster of 3-4 blood-drinking stirges that nest in the nearby trees. They are drawn to the lantern's warmth and attack travelers who linger too long at the post, especially after dusk.",
-          "stats": "AC 14, HP 2 each, Blood Drain attack (+5 to hit, 1d4+3 piercing plus attach)"
+          "stats": "AC 14, HP 2 each, Blood Drain attack (+5 to hit, 1d4+3 piercing plus attach)",
+          "quantity": {
+            "min": 3,
+            "max": 6
+          }
         }
       ],
       "lootTable": [

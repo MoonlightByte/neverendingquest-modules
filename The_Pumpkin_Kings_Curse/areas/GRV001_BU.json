@@ -63,7 +63,11 @@
         {
           "name": "Noose Wraith (Mini-boss)",
           "description": "A powerful spectral entity born from the collective anguish of those executed at the Gallows Oak. It appears as a hooded figure with a rope noose around its neck, radiating an aura of despair and vengeance. The Wraith can manifest multiple spectral nooses to ensnare its victims and drains life force with its touch. At 50% health, it summons a spectral prisoner to aid it in combat.",
-          "stats": "AC 15, HP 58 (9d8+18), Speed 0 ft., fly 60 ft. (hover). FEAR AURA: All creatures within 30 ft must make WIS save DC 13 or be Frightened until start of next turn. PHASE ABILITY: At 50% HP (29 or below), summons Spectral Prisoner (AC 12, HP 22, Attack +4 1d6+2). Life Drain (2d6+3 necrotic), Spectral Noose (ranged grapple attack, reach 60 ft)"
+          "stats": "AC 15, HP 58 (9d8+18), Speed 0 ft., fly 60 ft. (hover). FEAR AURA: All creatures within 30 ft must make WIS save DC 13 or be Frightened until start of next turn. PHASE ABILITY: At 50% HP (29 or below), summons Spectral Prisoner (AC 12, HP 22, Attack +4 1d6+2). Life Drain (2d6+3 necrotic), Spectral Noose (ranged grapple attack, reach 60 ft)",
+          "quantity": {
+            "min": 2,
+            "max": 2
+          }
         }
       ],
       "lootTable": [
@@ -87,7 +91,9 @@
           "detectDC": 16,
           "disableDC": 18,
           "triggerDC": 14,
-          "damage": "2d8 necrotic + grappled (spectral nooses emerge from the ground to ensnare those who disturb the execution site without proper reverence)"
+          "damage": "2d8 necrotic + grappled (spectral nooses emerge from the ground to ensnare those who disturb the execution site without proper reverence)",
+          "name": "Necrotic Trap",
+          "description": "A trap that deals 2d8 necrotic + grappled (spectral nooses emerge from the ground to ensnare those who disturb the execution site without proper reverence) damage (DC 16 to detect)."
         }
       ],
       "dcChecks": [

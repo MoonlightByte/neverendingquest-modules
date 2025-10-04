@@ -190,7 +190,7 @@
       "locationId": "D01",
       "name": "Withered Lantern Crossroads",
       "type": "room",
-      "description": "At the heart of the Fields of Supplication, four ancient footpaths intersect atop a patch of churned mud, scattered with the remains of broken lanterns whose pale embers sometimes gutter to life without warning. Faded sigils of bygone harvests are carved into toppled stones, and offerings\u2014wilted flowers, shriveled gourds, and crude dolls\u2014lie abandoned. The air is thick with the scent of wax and smoke, and ghostly whispers tug at the minds of the living.",
+      "description": "At the heart of the Fields of Supplication, four ancient footpaths intersect atop a patch of churned mud, scattered with the remains of broken lanterns whose pale embers sometimes gutter to life without warning. Faded sigils of bygone harvests are carved into toppled stones, and offerings—wilted flowers, shriveled gourds, and crude dolls—lie abandoned. The air is thick with the scent of wax and smoke, and ghostly whispers tug at the minds of the living.",
       "coordinates": "X2Y2",
       "connectivity": [
         "D02",
@@ -209,7 +209,11 @@
       "monsters": [
         {
           "name": "Lantern Husk",
-          "description": "A twisted scarecrow animated by lingering magic and the resentment of the forgotten dead; it lashes at intruders with burning, waxy tendrils."
+          "description": "A twisted scarecrow animated by lingering magic and the resentment of the forgotten dead; it lashes at intruders with burning, waxy tendrils.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -266,11 +270,19 @@
       "monsters": [
         {
           "name": "Scarecrow Sentinel",
-          "description": "A menacing, runic-etched scarecrow animated by necromantic energy, it attacks anyone who approaches without making a proper offering."
+          "description": "A menacing, runic-etched scarecrow animated by necromantic energy, it attacks anyone who approaches without making a proper offering.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         },
         {
           "name": "Swarm of Field Rats",
-          "description": "Drawn by blood and carrion, these oversized rats scuttle from beneath the straw, attacking as a pack."
+          "description": "Drawn by blood and carrion, these oversized rats scuttle from beneath the straw, attacking as a pack.",
+          "quantity": {
+            "min": 3,
+            "max": 6
+          }
         }
       ],
       "lootTable": [
@@ -280,7 +292,7 @@
       ],
       "plotHooks": [
         "Scraps of a blood-stained festival banner hint at a forgotten ritual that went wrong here.",
-        "The runes on the central scarecrow reference a name\u2014Elric\u2014suggesting he was involved in binding or angering the spirits."
+        "The runes on the central scarecrow reference a name—Elric—suggesting he was involved in binding or angering the spirits."
       ],
       "dmInstructions": "The Scarecrow Sentinel animates and attacks if approached aggressively or if the central gourd is touched without a DC 12 Religion or Arcana check to perform a supplication (offering of wheat, coin, or blood). The rats emerge if there is combat or loud noise. The runes can be deciphered (DC 13 Arcana) to reveal a cryptic warning and Elric's name.",
       "doors": [],
@@ -289,7 +301,9 @@
           "detectDC": 12,
           "disableDC": 12,
           "triggerDC": 10,
-          "damage": "1d6 necrotic (a burst of shadowy thorns erupts from beneath the central scarecrow if the runes are tampered with)"
+          "damage": "1d6 necrotic (a burst of shadowy thorns erupts from beneath the central scarecrow if the runes are tampered with)",
+          "name": "Necrotic Trap",
+          "description": "A trap that deals 1d6 necrotic (a burst of shadowy thorns erupts from beneath the central scarecrow if the runes are tampered with) damage (DC 12 to detect)."
         }
       ],
       "dcChecks": [
@@ -341,7 +355,11 @@
       "monsters": [
         {
           "name": "Harvest Shade",
-          "description": "A shadowy specter that stalks those who stray from the path, draining warmth and hope from its victims."
+          "description": "A shadowy specter that stalks those who stray from the path, draining warmth and hope from its victims.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -360,7 +378,9 @@
           "detectDC": 13,
           "disableDC": 11,
           "triggerDC": 10,
-          "damage": "1d4 psychic (if a shrine is disturbed, a spectral wail is triggered, stunning the nearest creature until the end of their next turn if they fail a DC 10 Wisdom save)"
+          "damage": "1d4 psychic (if a shrine is disturbed, a spectral wail is triggered, stunning the nearest creature until the end of their next turn if they fail a DC 10 Wisdom save)",
+          "name": "Psychic Trap",
+          "description": "A trap that deals 1d4 psychic (if a shrine is disturbed, a spectral wail is triggered, stunning the nearest creature until the end of their next turn if they fail a DC 10 Wisdom save) damage (DC 13 to detect)."
         }
       ],
       "dcChecks": [
@@ -411,7 +431,11 @@
       "monsters": [
         {
           "name": "Bloodshadow",
-          "description": "A lingering manifestation of all the sacrifices made here, it attacks anyone who tries to loot or defile the altar."
+          "description": "A lingering manifestation of all the sacrifices made here, it attacks anyone who tries to loot or defile the altar.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -430,7 +454,9 @@
           "detectDC": 14,
           "disableDC": 13,
           "triggerDC": 12,
-          "damage": "2d6 necrotic (if the altar is moved without a ritual, black fire erupts and engulfs the intruder)"
+          "damage": "2d6 necrotic (if the altar is moved without a ritual, black fire erupts and engulfs the intruder)",
+          "name": "Fire Trap",
+          "description": "A trap that deals 2d6 necrotic (if the altar is moved without a ritual, black fire erupts and engulfs the intruder) damage (DC 14 to detect)."
         }
       ],
       "dcChecks": [
@@ -456,7 +482,7 @@
       "locationId": "D12",
       "name": "Threshing Floor",
       "type": "room",
-      "description": "A wide, circular space paved with ancient stones, where grain was once separated from chaff during harvest seasons. The stones are now cracked and stained with dark patches that gleam wetly despite the absence of rain. Broken threshing tools lie scattered about\u2014flails, sickles, and winnowing baskets\u2014their handles worn smooth by countless hands. The air carries the phantom scent of wheat dust mixed with something more sinister.",
+      "description": "A wide, circular space paved with ancient stones, where grain was once separated from chaff during harvest seasons. The stones are now cracked and stained with dark patches that gleam wetly despite the absence of rain. Broken threshing tools lie scattered about—flails, sickles, and winnowing baskets—their handles worn smooth by countless hands. The air carries the phantom scent of wheat dust mixed with something more sinister.",
       "coordinates": "X2Y3",
       "connectivity": [
         "D01",
@@ -474,7 +500,11 @@
       "monsters": [
         {
           "name": "Grain Wraith",
-          "description": "A swirling mass of spectral grain and chaff animated by the anger of spoiled harvests, it attacks by engulfing victims in a choking cloud of phantom wheat."
+          "description": "A swirling mass of spectral grain and chaff animated by the anger of spoiled harvests, it attacks by engulfing victims in a choking cloud of phantom wheat.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -493,7 +523,9 @@
           "detectDC": 13,
           "disableDC": 15,
           "triggerDC": 11,
-          "damage": "1d6 slashing (ancient threshing mechanisms activate if pressure is applied to certain stones, swinging phantom flails)"
+          "damage": "1d6 slashing (ancient threshing mechanisms activate if pressure is applied to certain stones, swinging phantom flails)",
+          "name": "Trap 1",
+          "description": "A trap that deals 1d6 slashing (ancient threshing mechanisms activate if pressure is applied to certain stones, swinging phantom flails) damage (DC 13 to detect)."
         }
       ],
       "dcChecks": [
@@ -551,7 +583,11 @@
       "monsters": [
         {
           "name": "Rope Strangler",
-          "description": "Animate lengths of hemp rope that hang from the rafters, possessed by the spirits of those who met their end here. They attempt to entangle and strangle intruders."
+          "description": "Animate lengths of hemp rope that hang from the rafters, possessed by the spirits of those who met their end here. They attempt to entangle and strangle intruders.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -582,7 +618,9 @@
           "detectDC": 12,
           "disableDC": 14,
           "triggerDC": 10,
-          "damage": "1d8 bludgeoning (rotted floorboards give way under weight, causing a fall to the ground below)"
+          "damage": "1d8 bludgeoning (rotted floorboards give way under weight, causing a fall to the ground below)",
+          "name": "Trap 1",
+          "description": "A trap that deals 1d8 bludgeoning (rotted floorboards give way under weight, causing a fall to the ground below) damage (DC 12 to detect)."
         }
       ],
       "dcChecks": [
@@ -645,7 +683,11 @@
       "monsters": [
         {
           "name": "Guardian Stone",
-          "description": "The altar itself can animate partially if threatened, striking out with stone appendages to protect the sacred Ember Gourd."
+          "description": "The altar itself can animate partially if threatened, striking out with stone appendages to protect the sacred Ember Gourd.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -666,7 +708,9 @@
           "detectDC": 15,
           "disableDC": 17,
           "triggerDC": 12,
-          "damage": "2d6 radiant (holy energy erupts from the altar if it's defiled or approached with evil intent)"
+          "damage": "2d6 radiant (holy energy erupts from the altar if it's defiled or approached with evil intent)",
+          "name": "Trap 1",
+          "description": "A trap that deals 2d6 radiant (holy energy erupts from the altar if it's defiled or approached with evil intent) damage (DC 15 to detect)."
         }
       ],
       "dcChecks": [
@@ -736,11 +780,19 @@
       "monsters": [
         {
           "name": "Straw Blight",
-          "description": "Corrupted hay animated by dark magic, forming into vaguely humanoid shapes that attack with grasping, scratching appendages made of twisted straw."
+          "description": "Corrupted hay animated by dark magic, forming into vaguely humanoid shapes that attack with grasping, scratching appendages made of twisted straw.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         },
         {
           "name": "Nest Lurker",
-          "description": "A creature that has made its home deep within the hayricks, emerging only when its territory is threatened. Its exact nature is hidden by the shadows and straw."
+          "description": "A creature that has made its home deep within the hayricks, emerging only when its territory is threatened. Its exact nature is hidden by the shadows and straw.",
+          "quantity": {
+            "min": 1,
+            "max": 1
+          }
         }
       ],
       "lootTable": [
@@ -759,7 +811,9 @@
           "detectDC": 14,
           "disableDC": 12,
           "triggerDC": 10,
-          "damage": "1d6 bludgeoning + buried (hayrick collapses when climbed incorrectly, potentially burying the character)"
+          "damage": "1d6 bludgeoning + buried (hayrick collapses when climbed incorrectly, potentially burying the character)",
+          "name": "Trap 1",
+          "description": "A trap that deals 1d6 bludgeoning + buried (hayrick collapses when climbed incorrectly, potentially burying the character) damage (DC 14 to detect)."
         }
       ],
       "dcChecks": [
