@@ -61,7 +61,7 @@
       ],
       "monsters": [
         {
-          "name": "The Pumpkin King (Final Boss)",
+          "name": "The Pumpkin King",
           "description": "A towering scarecrow-plant hybrid wreathed in smoke and flame, wielding a burning scythe. Its jack-o'lantern head blazes with unholy fire as it commands the cursed harvest.",
           "stats": "AC 16, HP 95, Speed 30 ft. STR 18, DEX 10, CON 16, INT 10, WIS 12, CHA 14. Legendary Resistance (1/Day), Fear Aura (DC 13), Regeneration 10 HP/turn unless throne destroyed or fire damage taken after Ember Gourd presented.",
           "quantity": {
