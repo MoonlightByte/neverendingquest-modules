@@ -416,10 +416,12 @@
         "D03"
       ],
       "areaConnectivity": [
-        "The Wailing Cornfields"
+        "The Wailing Cornfields",
+        "The Old Graveyard"
       ],
       "areaConnectivityId": [
-        "C01"
+        "C01",
+        "G01"
       ],
       "npcs": [
         {
@@ -768,8 +770,8 @@
       "connectivity": [
         "D14"
       ],
-      "areaConnectivity": [],
-      "areaConnectivityId": [],
+      "areaConnectivity": ["The Hollow Field"],
+      "areaConnectivityId": ["H01"],
       "npcs": [
         {
           "name": "Hay-Bound Spirit",
