@@ -147,8 +147,8 @@
         "A04",
         "A05"
       ],
-      "areaConnectivity": [],
-      "areaConnectivityId": [],
+      "areaConnectivity": ["The Tanglewood Verge"],
+      "areaConnectivityId": ["B02"],
       "npcs": [
         {
           "name": "Mayor Tilda Bramble",

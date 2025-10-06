@@ -189,8 +189,8 @@
         "B03",
         "B04"
       ],
-      "areaConnectivity": [],
-      "areaConnectivityId": [],
+      "areaConnectivity": ["Greenfields Vale"],
+      "areaConnectivityId": ["A01"],
       "npcs": [
         {
           "name": "Gatewarden Silas Ember",
