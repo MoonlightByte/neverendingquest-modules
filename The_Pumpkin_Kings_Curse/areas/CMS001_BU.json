@@ -184,7 +184,7 @@
       ],
       "plotHooks": [
         "A set of muddy, small footprints diverges from the path, hinting someone (perhaps a missing child) is deeper within the maze.",
-        "A torn piece of orange cloth is snagged on a stalk, matching festival garb from the Harvest Festival Green."
+        "A torn piece of orange cloth is snagged on a stalk, matching festival garb from Greenfields Vale."
       ],
       "dmInstructions": "Describe the unsettling, shifting quality of the maze. Play up the sense of being watched. Use the Cornfield Shadow as a low-level ambush or to drive the party deeper. Clues here should foreshadow missing villagers or children without revealing key NPCs yet. On combat encounter: Call createEncounter with Cornfield Shadow (50 XP). XP is automatically awarded when encounter ends.",
       "doors": [],
@@ -282,7 +282,7 @@
       "encounters": [
         {
           "type": "roleplay",
-          "description": "A crow with a broken ribbon around its leg delivers a rhyme from Old Crone Willa, hinting at a relic in the barn."
+          "description": "A crow with a broken ribbon around its leg delivers a rhyme from Old Crone Willa, hinting at a relic at the Stone Trough Altar."
         }
       ],
       "adventureSummary": "A crossroads of superstition and defense, offering both danger and vital information if players are diplomatic."
@@ -352,8 +352,8 @@
         "Harvest Moon Medallion (protection from necrotic damage, one use)"
       ],
       "plotHooks": [
-        "Grella describes seeing 'the Pumpkin King's shadow' headed toward the Barn of Offerings, dragging something large.",
-        "Cryptic runes describe a binding ritual, missing a final element—Grella believes only the priest from Harvest Festival Green would know more."
+        "Grella describes seeing 'the Pumpkin King's shadow' headed toward the Stone Trough Altar, dragging something large.",
+        "Cryptic runes describe a binding ritual, missing a final element—Grella believes only the priest from Greenfields Vale would know more."
       ],
       "dmInstructions": "When moon appears: Call createEncounter with 2-3 Straw Husks (50 XP each).",
       "doors": [],
