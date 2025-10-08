@@ -123,21 +123,8 @@
           "description": "Ancient grave markers that lean at odd angles, many bearing names that match those carved in the oak."
         }
       ],
-      "encounters": [
-        {
-          "type": "roleplay",
-          "description": "Crucial conversation with the Ghost of the Last Judge about the Pumpkin King's origins and the curse's true nature."
-        },
-        {
-          "type": "combat",
-          "description": "Enhanced mini-boss battle against the Noose Wraith with fear aura, phase mechanics at 50% HP, and spectral prisoner summoning."
-        },
-        {
-          "type": "exploration",
-          "description": "Investigating the carved names and hidden markings to uncover the connection between past executions and current disappearances."
-        }
-      ],
-      "adventureSummary": "The climactic mini-boss encounter where the party faces the Noose Wraith while learning crucial information about the Pumpkin King's past and the key to ending the curse forever."
+      "encounters": [],
+      "adventureSummary": ""
     }
   ],
   "randomEncounters": [

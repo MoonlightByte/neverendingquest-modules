@@ -129,7 +129,7 @@
         },
         {
           "name": "Amanita Gorse",
-          "description": "A young tiefling herbalist who serves as quartermaster, known for her dry wit and knowledge of the local flora—especially dangerous ones.",
+          "description": "A young tiefling herbalist who serves as quartermaster, known for her dry wit and knowledge of the local flora\u2014especially dangerous ones.",
           "attitude": "Helpful to those with genuine need; suspicious of outsiders asking too many questions."
         }
       ],
@@ -176,21 +176,25 @@
         }
       ],
       "encounters": [],
-      "adventureSummary": "The Lodge offers rumors, supplies, and a potential side quest involving missing guild members and the dangers lurking in the Verge."
+      "adventureSummary": ""
     },
     {
       "locationId": "B02",
       "name": "Twilight Veil Gate",
       "type": "gate",
-      "description": "Framed by arching brambles and crowned by faded festival ribbons, the Twilight Veil Gate marks the boundary between the safety of the village and the wild mysteries of the Tanglewood Verge. Twilight always seems to linger here, and the air is thick with anticipation—a threshold between the mundane and the magical.",
+      "description": "Framed by arching brambles and crowned by faded festival ribbons, the Twilight Veil Gate marks the boundary between the safety of the village and the wild mysteries of the Tanglewood Verge. Twilight always seems to linger here, and the air is thick with anticipation\u2014a threshold between the mundane and the magical.",
       "coordinates": "X2Y1",
       "connectivity": [
         "B01",
         "B03",
         "B04"
       ],
-      "areaConnectivity": ["Greenfields Vale"],
-      "areaConnectivityId": ["A01"],
+      "areaConnectivity": [
+        "Greenfields Vale"
+      ],
+      "areaConnectivityId": [
+        "A01"
+      ],
       "npcs": [
         {
           "name": "Gatewarden Silas Ember",
@@ -224,7 +228,7 @@
       "traps": [],
       "dcChecks": [
         "Insight DC 11: Sense Silas is secretly afraid of something on the other side.",
-        "Perception DC 13: Spot a scrap of fur on the brambles—evidence of the missing dog."
+        "Perception DC 13: Spot a scrap of fur on the brambles\u2014evidence of the missing dog."
       ],
       "accessibility": "Normally open at dawn and dusk; locked at night except for emergencies or with warden's permission.",
       "dangerLevel": "Medium",
@@ -235,13 +239,13 @@
         }
       ],
       "encounters": [],
-      "adventureSummary": "The gate is both a physical and symbolic barrier; the party may gather rumors, attempt to pass into the Verge, and receive small side quests or warnings here."
+      "adventureSummary": ""
     },
     {
       "locationId": "B03",
       "name": "Lantern Hollow Cottage",
       "type": "residence",
-      "description": "Nestled beneath ancient hazel trees, Lantern Hollow Cottage is a patchwork structure of crooked brick and mossy wood. Dozens of lanterns—some magical, some mundane—hang from every eave, lighting the garden with a perpetual, wavering glow. The air is thick with the scent of herbs, and the ground is soft with layers of fallen leaves.",
+      "description": "Nestled beneath ancient hazel trees, Lantern Hollow Cottage is a patchwork structure of crooked brick and mossy wood. Dozens of lanterns\u2014some magical, some mundane\u2014hang from every eave, lighting the garden with a perpetual, wavering glow. The air is thick with the scent of herbs, and the ground is soft with layers of fallen leaves.",
       "coordinates": "X3Y1",
       "connectivity": [
         "B02"
@@ -307,13 +311,8 @@
           "description": "The walls lean at odd angles and lanterns of all shapes and sizes dangle from every rafter, casting strange shifting shadows."
         }
       ],
-      "encounters": [
-        {
-          "name": "Shadow Creeper Prank",
-          "description": "The Shadow Creeper attempts to steal a shiny object from a party member and vanishes into a lantern, causing it to flicker ominously."
-        }
-      ],
-      "adventureSummary": "Lantern Hollow Cottage is a place for rest, rumors, and magical oddities, with the potential for minor fey mischief and clues relating to the Verge's deeper secrets."
+      "encounters": [],
+      "adventureSummary": ""
     },
     {
       "locationId": "B04",
@@ -378,17 +377,8 @@
           "description": "Well-worn dirt paths that branch off in multiple directions through the Verge."
         }
       ],
-      "encounters": [
-        {
-          "type": "combat",
-          "description": "Stirge swarm attacks if party lingers after dusk or disturbs the lantern."
-        },
-        {
-          "type": "exploration",
-          "description": "Searching the area reveals clues about previous stirge victims and hidden paths."
-        }
-      ],
-      "adventureSummary": "A dangerous crossroads that serves as both waypoint and hunting ground, where the party faces their first direct combat encounter with the Verge's hostile creatures."
+      "encounters": [],
+      "adventureSummary": ""
     }
   ],
   "randomEncounters": [

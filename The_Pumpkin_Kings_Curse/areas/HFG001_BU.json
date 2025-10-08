@@ -147,8 +147,12 @@
         "A04",
         "A05"
       ],
-      "areaConnectivity": ["The Tanglewood Verge"],
-      "areaConnectivityId": ["B02"],
+      "areaConnectivity": [
+        "The Tanglewood Verge"
+      ],
+      "areaConnectivityId": [
+        "B02"
+      ],
       "npcs": [
         {
           "name": "Mayor Tilda Bramble",
@@ -174,9 +178,9 @@
       ],
       "plotHooks": [
         "Mayor Tilda Bramble asks adventurers to keep an eye out for oddities, as a few townsfolk are missing.",
-        "A merchant complains their produce is mysteriously rotting faster than usual—could it be sabotage or a curse?",
+        "A merchant complains their produce is mysteriously rotting faster than usual\u2014could it be sabotage or a curse?",
         "A child is convinced the scarecrow effigy moves when no one is looking.",
-        "Festival witnesses saw scarecrows moving at the field edge—pointing toward the Wailing Cornfields (CMS001)."
+        "Festival witnesses saw scarecrows moving at the field edge\u2014pointing toward the Wailing Cornfields (CMS001)."
       ],
       "dmInstructions": "When party investigates scarecrow: Prompt for Perception DC 13. On success, reveal muddy footprints pointing toward CMS001.",
       "doors": [],
@@ -203,7 +207,7 @@
         }
       ],
       "encounters": [],
-      "adventureSummary": "A vibrant market central to the festival, where mysteries begin to unfold and the party can gather rumors, supplies, and their first hints of the curse."
+      "adventureSummary": ""
     },
     {
       "locationId": "A02",
@@ -225,7 +229,7 @@
       ],
       "plotHooks": [
         "A new notice details another missing villager, last seen near the edge of the Tanglewood Verge at dusk.",
-        "A lantern suddenly extinguishes in cold breeze—was it a trick of the wind or something more?"
+        "A lantern suddenly extinguishes in cold breeze\u2014was it a trick of the wind or something more?"
       ],
       "dmInstructions": "The square is a perfect scene for investigating disappearances or catching rumors. Subtle supernatural effects hint at the growing curse.",
       "doors": [],
@@ -252,7 +256,7 @@
         }
       ],
       "encounters": [],
-      "adventureSummary": "A public square filled with festival energy and ominous signs, where clues about disappearances and the curse begin to crystallize."
+      "adventureSummary": ""
     },
     {
       "locationId": "A03",
@@ -312,7 +316,7 @@
         },
         {
           "name": "Hearth",
-          "description": "A large stone hearth with a cheery—if sometimes flickering—fire."
+          "description": "A large stone hearth with a cheery\u2014if sometimes flickering\u2014fire."
         },
         {
           "name": "Harvest Mural",
@@ -320,7 +324,7 @@
         }
       ],
       "encounters": [],
-      "adventureSummary": "A welcoming tavern where rumors, tales, and anxieties about the harvest curse are freely shared, and the first supernatural hints appear."
+      "adventureSummary": ""
     },
     {
       "locationId": "A04",
@@ -348,7 +352,7 @@
       ],
       "plotHooks": [
         "Miller Boren challenges the party to beat him in a drinking contest for a story about the festival's darkest night.",
-        "Staff report finding blackened wheat stalks on the threshold—an omen in old village lore.",
+        "Staff report finding blackened wheat stalks on the threshold\u2014an omen in old village lore.",
         "A drunken local dares someone to venture into the Wailing Cornfields at midnight."
       ],
       "dmInstructions": "Roleplay with Miller Boren can reveal more about the festival's history and the curse. The Barrelhouse is a good site for skill contests, rumors, and introducing omens of the Pumpkin King's return. The blackened wheat is the first direct physical clue of the curse's spread.",
@@ -388,7 +392,7 @@
         }
       ],
       "encounters": [],
-      "adventureSummary": "A jovial tavern with an undercurrent of dread, where omens manifest and the party can uncover lore or accept challenges tied to the curse."
+      "adventureSummary": ""
     },
     {
       "locationId": "A05",
@@ -461,17 +465,8 @@
           "description": "Old graves of village founders and respected elders, some bearing mysterious carved symbols."
         }
       ],
-      "encounters": [
-        {
-          "type": "skill_challenge",
-          "description": "Consecration Ritual - The party must restore the shrine's sanctity through a skill challenge requiring 3 successes before 2 failures. Suggested skills: Religion DC 12, Investigation DC 13, Performance DC 11, or Arcana DC 14. Failure triggers combat with 2 Shadows (50 XP each)."
-        },
-        {
-          "type": "combat",
-          "description": "Combat-lite encounter with 2 Shadows if consecration ritual fails."
-        }
-      ],
-      "adventureSummary": "A peaceful shrine that offers sanctuary and religious context to the unfolding supernatural events, with clues connecting to the broader curse affecting the region."
+      "encounters": [],
+      "adventureSummary": ""
     }
   ],
   "randomEncounters": [

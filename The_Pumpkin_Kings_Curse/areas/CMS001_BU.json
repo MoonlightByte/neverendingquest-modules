@@ -215,23 +215,14 @@
           "description": "Indiscernible voices on the wind, growing louder the longer one remains."
         }
       ],
-      "encounters": [
-        {
-          "type": "combat",
-          "description": "Cornfield Shadow ambush if party is loud or rests here."
-        },
-        {
-          "type": "exploration",
-          "description": "Hidden token and clues to other missing villagers."
-        }
-      ],
-      "adventureSummary": "A confusing, shifting entry to the haunted fields, with threats both seen and unseen."
+      "encounters": [],
+      "adventureSummary": ""
     },
     {
       "locationId": "C02",
       "name": "Withered Scarecrow Watch",
       "type": "room",
-      "description": "Rows of leaning, worm-eaten posts bear half-collapsed scarecrows—each draped in tattered rags and crowned with moldy gourd heads. The ground is sticky with sap and old blood, and a sense of watchfulness pervades. One scarecrow stands fresher than the others, its stitched grin impossibly wide.",
+      "description": "Rows of leaning, worm-eaten posts bear half-collapsed scarecrows\u2014each draped in tattered rags and crowned with moldy gourd heads. The ground is sticky with sap and old blood, and a sense of watchfulness pervades. One scarecrow stands fresher than the others, its stitched grin impossibly wide.",
       "coordinates": "X3Y2",
       "connectivity": [
         "C01",
@@ -267,7 +258,7 @@
         "Arcana DC 14: Analyze the runic carvings to glean insight about the curse.",
         "Perception DC 12: Spot additional hidden runes carved into scarecrow posts."
       ],
-      "accessibility": "Normal access, but the area feels exposed—eyes on the party from every angle.",
+      "accessibility": "Normal access, but the area feels exposed\u2014eyes on the party from every angle.",
       "dangerLevel": "Medium",
       "features": [
         {
@@ -279,13 +270,8 @@
           "description": "Thick motes drift in the air, disturbed by the slightest breeze or movement."
         }
       ],
-      "encounters": [
-        {
-          "type": "roleplay",
-          "description": "A crow with a broken ribbon around its leg delivers a rhyme from Old Crone Willa, hinting at a relic at the Stone Trough Altar."
-        }
-      ],
-      "adventureSummary": "A crossroads of superstition and defense, offering both danger and vital information if players are diplomatic."
+      "encounters": [],
+      "adventureSummary": ""
     },
     {
       "locationId": "C03",
@@ -304,7 +290,7 @@
         {
           "name": "Widow Grella & Grandson Tom",
           "description": "Human, female, Mediterranean heritage. Gaunt with olive skin, dark circles under her brown eyes, and black hair streaked with premature gray. She desperately clutches her trembling, mute grandson Tom (also olive-skinned with dark curls). Grella is frantic, convinced the Pumpkin King seeks Tom as a 'harvest tithe'.",
-          "attitude": "Pleading, fearful, and desperate—will beg the party for help or try to hide if threatened."
+          "attitude": "Pleading, fearful, and desperate\u2014will beg the party for help or try to hide if threatened."
         },
         {
           "name": "Morwenna Hollowell",
@@ -353,7 +339,7 @@
       ],
       "plotHooks": [
         "Grella describes seeing 'the Pumpkin King's shadow' headed toward the Stone Trough Altar, dragging something large.",
-        "Cryptic runes describe a binding ritual, missing a final element—Grella believes only the priest from Greenfields Vale would know more."
+        "Cryptic runes describe a binding ritual, missing a final element\u2014Grella believes only the priest from Greenfields Vale would know more."
       ],
       "dmInstructions": "When moon appears: Call createEncounter with 2-3 Straw Husks (50 XP each).",
       "doors": [],
@@ -362,9 +348,9 @@
           "detectDC": 11,
           "disableDC": 13,
           "triggerDC": 0,
-          "damage": "None—disturbing the effigy awakens the rat swarm, which attacks immediately.",
+          "damage": "None\u2014disturbing the effigy awakens the rat swarm, which attacks immediately.",
           "name": "Trap 1",
-          "description": "A trap that deals None—disturbing the effigy awakens the rat swarm, which attacks immediately. damage (DC 11 to detect)."
+          "description": "A trap that deals None\u2014disturbing the effigy awakens the rat swarm, which attacks immediately. damage (DC 11 to detect)."
         }
       ],
       "dcChecks": [
@@ -384,21 +370,8 @@
           "description": "The effigy is made of bundled corn stalks and bones, missing its head."
         }
       ],
-      "encounters": [
-        {
-          "type": "roleplay",
-          "description": "Aid or question Widow Grella and Tom."
-        },
-        {
-          "type": "combat",
-          "description": "Rat swarm if the effigy is tampered with; Straw Husks if combat is prolonged."
-        },
-        {
-          "type": "exploration",
-          "description": "Study the runes for ritual clues."
-        }
-      ],
-      "adventureSummary": "A pivotal location for rescuing NPCs, learning more about the curse and the Pumpkin King's next move."
+      "encounters": [],
+      "adventureSummary": ""
     },
     {
       "locationId": "C04",
@@ -415,7 +388,7 @@
       "monsters": [],
       "lootTable": [
         "A silver sickle (damages spectral entities, glows faintly near undead)",
-        "Torn page from a priest's journal—details about the Pumpkin King's origin",
+        "Torn page from a priest's journal\u2014details about the Pumpkin King's origin",
         "Burlap pouch with dried nightshade berries (poisonous, but useful for some rituals)"
       ],
       "plotHooks": [
@@ -451,17 +424,8 @@
           "description": "Heaps of broken, rusted farm implements, overgrown with moldy husks."
         }
       ],
-      "encounters": [
-        {
-          "type": "combat",
-          "description": "Noose Wraith attacks if disturbed or not appeased."
-        },
-        {
-          "type": "exploration",
-          "description": "Search for the hidden journal page and silver sickle among the debris."
-        }
-      ],
-      "adventureSummary": "The haunted heart of the Wailing Cornfields, where dangerous knowledge and vengeful spirits linger near the edge of the mortal world."
+      "encounters": [],
+      "adventureSummary": ""
     },
     {
       "locationId": "C05",
@@ -538,27 +502,14 @@
           "description": "The edge of the sinkhole is cracked and crumbling, threatening to give way under weight."
         }
       ],
-      "encounters": [
-        {
-          "type": "roleplay",
-          "description": "Conversation with the Echo of the Lost Farmer about the site's history."
-        },
-        {
-          "type": "combat",
-          "description": "Blight Tendrils emerge if the party disturbs the fungi or descends into the sinkhole."
-        },
-        {
-          "type": "exploration",
-          "description": "Investigating the ancient foundations and deciphering the runes."
-        }
-      ],
-      "adventureSummary": "A dangerous excavation site that reveals the ancient origins of the curse and provides historical context through its ghostly guardian."
+      "encounters": [],
+      "adventureSummary": ""
     },
     {
       "locationId": "C06",
       "name": "The Lost Child Hollow",
       "type": "room",
-      "description": "A small clearing surrounded by unusually tall corn stalks that bend inward like a natural cathedral. At the center lies a child's makeshift shelter—a lean-to of broken boards and torn festival cloth, surrounded by carved wooden toys and wilted flowers. The air is filled with the faint sound of sobbing, though no child can be seen. Fresh footprints in the soft earth suggest recent habitation.",
+      "description": "A small clearing surrounded by unusually tall corn stalks that bend inward like a natural cathedral. At the center lies a child's makeshift shelter\u2014a lean-to of broken boards and torn festival cloth, surrounded by carved wooden toys and wilted flowers. The air is filled with the faint sound of sobbing, though no child can be seen. Fresh footprints in the soft earth suggest recent habitation.",
       "coordinates": "X1Y3",
       "connectivity": [
         "C03"
@@ -615,21 +566,8 @@
           "description": "A small patch where wildflowers have been carefully tended, though most are now wilted."
         }
       ],
-      "encounters": [
-        {
-          "type": "roleplay",
-          "description": "Gentle interaction with Little Meg's spirit, learning about the Pumpkin King's activities."
-        },
-        {
-          "type": "combat",
-          "description": "Protective Shadow manifests if Meg feels threatened or if violence is attempted."
-        },
-        {
-          "type": "exploration",
-          "description": "Searching the hollow for clues about other missing children and the curse's history."
-        }
-      ],
-      "adventureSummary": "A touching encounter with an innocent victim of the curse that provides valuable intelligence while emphasizing the human cost of the supernatural threat."
+      "encounters": [],
+      "adventureSummary": ""
     }
   ],
   "randomEncounters": [
