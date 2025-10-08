@@ -224,7 +224,7 @@
         "Bundle of festival candles"
       ],
       "plotHooks": [
-        "A new notice details another missing villager, last seen near the ritual altar in the Fields of Supplication.",
+        "A new notice details another missing villager, last seen near the edge of the Tanglewood Verge at dusk.",
         "A lantern suddenly extinguishes in cold breeze—was it a trick of the wind or something more?"
       ],
       "dmInstructions": "The square is a perfect scene for investigating disappearances or catching rumors. Subtle supernatural effects hint at the growing curse.",
@@ -280,7 +280,7 @@
       ],
       "plotHooks": [
         "Farmhand Jo begs the party to investigate the fields, convinced something is stalking the night.",
-        "A patron swears they saw lights moving in the graveyard after dusk.",
+        "A patron swears they saw strange lights flickering in the western cornfields after dusk.",
         "The barkeep mentions the mural's eyes sometimes seem to follow patrons late at night."
       ],
       "dmInstructions": "Encourage roleplay with Jo and tavern regulars for local rumors and folklore. Jo's account can be a direct lead to the supernatural. The mural offers an atmospheric clue and the chance for a chilling moment.",
@@ -349,7 +349,7 @@
       "plotHooks": [
         "Miller Boren challenges the party to beat him in a drinking contest for a story about the festival's darkest night.",
         "Staff report finding blackened wheat stalks on the threshold—an omen in old village lore.",
-        "A drunken local dares someone to visit the Old Graveyard at midnight."
+        "A drunken local dares someone to venture into the Wailing Cornfields at midnight."
       ],
       "dmInstructions": "Roleplay with Miller Boren can reveal more about the festival's history and the curse. The Barrelhouse is a good site for skill contests, rumors, and introducing omens of the Pumpkin King's return. The blackened wheat is the first direct physical clue of the curse's spread.",
       "doors": [
