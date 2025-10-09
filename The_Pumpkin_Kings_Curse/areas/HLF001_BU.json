@@ -132,8 +132,21 @@
           "description": "The ghostly forms of the Pumpkin King's victims, standing as silent witnesses to the final confrontation."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        {
+          "type": "roleplay",
+          "description": "Final confrontation dialogue with the Pumpkin King, where the party can attempt to reason with him or taunt him into making mistakes."
+        },
+        {
+          "type": "combat",
+          "description": "Epic final boss battle with lair actions at initiative 20, wave spawns at 70% and 30% HP, destructible throne, and Ember Gourd special mechanics."
+        },
+        {
+          "type": "puzzle",
+          "description": "Using the Ember Gourd, Willa's chant, and tactical destruction of the throne to disrupt the Pumpkin King's power sources during combat."
+        }
+      ],
+      "adventureSummary": "The ultimate confrontation where the party faces the source of all the region's troubles and determines the fate of every soul caught in the curse's web."
     }
   ],
   "randomEncounters": [

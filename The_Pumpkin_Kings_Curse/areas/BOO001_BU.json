@@ -190,7 +190,7 @@
       "locationId": "D01",
       "name": "Withered Lantern Crossroads",
       "type": "room",
-      "description": "At the heart of the Fields of Supplication, four ancient footpaths intersect atop a patch of churned mud, scattered with the remains of broken lanterns whose pale embers sometimes gutter to life without warning. Faded sigils of bygone harvests are carved into toppled stones, and offerings\u2014wilted flowers, shriveled gourds, and crude dolls\u2014lie abandoned. The air is thick with the scent of wax and smoke, and ghostly whispers tug at the minds of the living.",
+      "description": "At the heart of the Fields of Supplication, four ancient footpaths intersect atop a patch of churned mud, scattered with the remains of broken lanterns whose pale embers sometimes gutter to life without warning. Faded sigils of bygone harvests are carved into toppled stones, and offerings—wilted flowers, shriveled gourds, and crude dolls—lie abandoned. The air is thick with the scent of wax and smoke, and ghostly whispers tug at the minds of the living.",
       "coordinates": "X2Y2",
       "connectivity": [
         "D02",
@@ -249,8 +249,11 @@
           "description": "Fine gray dust covers everything, occasionally disturbed by unseen feet."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        "A restless Lantern Husk emerges if offerings are disturbed.",
+        "A group of lost spirits gathers at midnight, seeking to repeat the failed harvest ritual."
+      ],
+      "adventureSummary": "The crossroads serves as a nexus of spiritual unrest, offering both danger and opportunities for insight into the curse plaguing the fields."
     },
     {
       "locationId": "D02",
@@ -289,7 +292,7 @@
       ],
       "plotHooks": [
         "Scraps of a blood-stained festival banner hint at a forgotten ritual that went wrong here.",
-        "The runes on the central scarecrow reference a name\u2014Elric\u2014suggesting he was involved in binding or angering the spirits."
+        "The runes on the central scarecrow reference a name—Elric—suggesting he was involved in binding or angering the spirits."
       ],
       "dmInstructions": "The Scarecrow Sentinel animates and attacks if approached aggressively or if the central gourd is touched without a DC 12 Religion or Arcana check to perform a supplication (offering of wheat, coin, or blood). The rats emerge if there is combat or loud noise. The runes can be deciphered (DC 13 Arcana) to reveal a cryptic warning and Elric's name.",
       "doors": [],
@@ -324,8 +327,11 @@
           "description": "The scarecrows' clothing is rotted and patched, remnants of decades-old harvest festivals."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        "Combat with the Scarecrow Sentinel and field rats if the area is disturbed.",
+        "Visions of children weaving between the scarecrows, re-enacting a doomed festival rite."
+      ],
+      "adventureSummary": "A place of failed protection, this hollow holds clues to the curse and a dangerous guardian for the unwary."
     },
     {
       "locationId": "D03",
@@ -394,8 +400,11 @@
           "description": "Wooden figurines are cracked and splintered, their painted faces all but erased."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        "A Harvest Shade materializes if the party disrespects the path or shrines.",
+        "The Wandering Supplicant pleads for release or begs to be left alone, depending on the party's approach."
+      ],
+      "adventureSummary": "This winding path provides both danger and critical information, rewarding respectful explorers with lore and minor boons."
     },
     {
       "locationId": "D04",
@@ -465,14 +474,17 @@
           "description": "Altar and benches are crumbling, covered in moss, and marked with faded bloodstains."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        "A tense negotiation with the Petitioning Shade, who may become hostile if angered.",
+        "A sudden attack by the Bloodshadow if the altar is disturbed without respect."
+      ],
+      "adventureSummary": "This site offers a crucial clue to the curse and a dangerous threat for rash adventurers."
     },
     {
       "locationId": "D12",
       "name": "Threshing Floor",
       "type": "room",
-      "description": "A wide, circular space paved with ancient stones, where grain was once separated from chaff during harvest seasons. The stones are now cracked and stained with dark patches that gleam wetly despite the absence of rain. Broken threshing tools lie scattered about\u2014flails, sickles, and winnowing baskets\u2014their handles worn smooth by countless hands. The air carries the phantom scent of wheat dust mixed with something more sinister.",
+      "description": "A wide, circular space paved with ancient stones, where grain was once separated from chaff during harvest seasons. The stones are now cracked and stained with dark patches that gleam wetly despite the absence of rain. Broken threshing tools lie scattered about—flails, sickles, and winnowing baskets—their handles worn smooth by countless hands. The air carries the phantom scent of wheat dust mixed with something more sinister.",
       "coordinates": "X2Y3",
       "connectivity": [
         "D01",
@@ -539,8 +551,17 @@
           "description": "Spectral wheat and chaff that appears and disappears, leaving behind the scent of long-dead harvests."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        {
+          "type": "roleplay",
+          "description": "Conversation with the Thresher's Ghost about proper harvest rituals and the curse's origins."
+        },
+        {
+          "type": "combat",
+          "description": "Grain Wraith attacks if the spectral grain or threshing stones are disturbed."
+        }
+      ],
+      "adventureSummary": "A place where honest labor once blessed the land, now corrupted by dark rituals and haunted by the memory of better times."
     },
     {
       "locationId": "D13",
@@ -625,8 +646,17 @@
           "description": "A commanding view of the Fields of Supplication, revealing the full scope of the curse's influence."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        {
+          "type": "roleplay",
+          "description": "Crucial conversation with Old Crone Willa about the Ember Gourd chant and curse-breaking rituals."
+        },
+        {
+          "type": "combat",
+          "description": "Rope Stranglers animate if the party shows hostility or greed."
+        }
+      ],
+      "adventureSummary": "A key location where the party can gain essential knowledge about breaking the curse, but only if they approach with respect and prove their worthy intentions."
     },
     {
       "locationId": "D14",
@@ -715,8 +745,21 @@
           "description": "Ancient symbols and detailed ritual instructions carved into the stone around the altar's perimeter."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        {
+          "type": "ritual",
+          "description": "Three-step Ember Gourd awakening ritual requiring grain offering, lantern lighting, and blood consecration."
+        },
+        {
+          "type": "roleplay",
+          "description": "Interaction with the Altar Keeper's Shade to learn about the Ember Gourd's proper use."
+        },
+        {
+          "type": "combat",
+          "description": "Guardian Stone animates if the altar is threatened or desecrated."
+        }
+      ],
+      "adventureSummary": "The sacred repository of the Ember Gourd, a key artifact essential for breaking the curse that plagues the land."
     },
     {
       "locationId": "D15",
@@ -727,12 +770,8 @@
       "connectivity": [
         "D14"
       ],
-      "areaConnectivity": [
-        "The Hollow Field"
-      ],
-      "areaConnectivityId": [
-        "H01"
-      ],
+      "areaConnectivity": ["The Hollow Field"],
+      "areaConnectivityId": ["H01"],
       "npcs": [
         {
           "name": "Hay-Bound Spirit",
@@ -800,8 +839,21 @@
           "description": "Sections where something large has burrowed or nested, leaving obvious signs of occupation."
         }
       ],
-      "encounters": [],
-      "adventureSummary": ""
+      "encounters": [
+        {
+          "type": "roleplay",
+          "description": "Communication with the Hay-Bound Spirit to learn about the larder's hidden dangers."
+        },
+        {
+          "type": "combat",
+          "description": "Battle with Straw Blights and the Nest Lurker in the confined, maze-like space."
+        },
+        {
+          "type": "exploration",
+          "description": "Navigating the hayrick maze to find hidden treasures and uncover cursed symbols."
+        }
+      ],
+      "adventureSummary": "A storage facility turned into a dangerous maze where the party must navigate both physical hazards and supernatural threats while uncovering more clues about the spreading curse."
     }
   ],
   "randomEncounters": [
