@@ -186,7 +186,7 @@
         "A set of muddy, small footprints diverges from the path, hinting someone (perhaps a missing child) is deeper within the maze.",
         "A torn piece of orange cloth is snagged on a stalk, matching festival garb from Greenfields Vale."
       ],
-      "dmInstructions": "Describe the unsettling, shifting quality of the maze. Play up the sense of being watched. Use the Cornfield Shadow as a low-level ambush or to drive the party deeper. Clues here should foreshadow missing villagers or children without revealing key NPCs yet. On combat encounter: Call createEncounter with Cornfield Shadow (50 XP). XP is automatically awarded when encounter ends.",
+      "dmInstructions": "Describe the unsettling, shifting quality of the maze. Play up the sense of being watched. IF monsters array contains Cornfield Shadow: Use as a low-level ambush to build tension. AFTER threats cleared (monsters array empty): Guide party to follow the muddy footprints and torn cloth clues toward Harvest Moon Clearing (C03) where Widow Grella and Tom await - this is the main objective of this plot point. Encourage investigation of the ritual marks, locket, and corn-doll as breadcrumbs pointing toward C03. Do NOT spawn additional threats once area is cleared. On combat encounter: Call createEncounter with Cornfield Shadow (50 XP). XP is automatically awarded when encounter ends.",
       "doors": [],
       "traps": [
         {
