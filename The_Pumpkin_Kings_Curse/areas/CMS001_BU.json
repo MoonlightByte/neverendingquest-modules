@@ -591,7 +591,7 @@
         "Little Meg describes seeing 'the tall man' heading toward the 'place with all the crosses,' pointing toward what might be the Old Graveyard.",
         "She mentions other lost children who 'went to sleep in the ground' but promises they're 'just hiding until the bad man goes away.'"
       ],
-      "dmInstructions": "If party is loud: Call createEncounter with 2 Twig Blights (25 XP each). For calming Elric: Prompt for Persuasion DC 10.",
+      "dmInstructions": "On arrival: Present Little Meg (ghost child) immediately - she appears as a shy, sobbing spirit near her makeshift shelter. This is a roleplay encounter focused on gentleness. IF party offers toys, treats, or speaks kindly: Meg trusts them and shares information about 'the tall man' and other lost children. IF party threatens Meg or acts hostile: Protective Shadow manifests to defend her - call createEncounter with Protective Shadow (100 XP). IF party is excessively loud: Call createEncounter with 2 Twig Blights (25 XP each). Priority: Emotional roleplay with ghost child - combat only if party triggers it.",
       "doors": [],
       "traps": [],
       "dcChecks": [
