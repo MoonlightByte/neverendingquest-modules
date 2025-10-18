@@ -355,7 +355,7 @@
         "Grella describes seeing 'the Pumpkin King's shadow' headed toward the Stone Trough Altar, dragging something large.",
         "Cryptic runes describe a binding ritual, missing a final element—Grella believes only the priest from Greenfields Vale would know more."
       ],
-      "dmInstructions": "When moon appears: Call createEncounter with 2-3 Straw Husks (50 XP each).",
+      "dmInstructions": "On arrival: Present Widow Grella and grandson Tom immediately - they are the main encounter here, huddled fearfully by the effigy. Morwenna Hollowell watches from the edge of the clearing, deciding whether to approach. IF party disturbs the effigy: Call createEncounter with Rune-Scarred Vermin (25 XP) immediately. IF combat is prolonged or party makes excessive noise: Call createEncounter with 2-3 Straw Husks (50 XP each). NPCs are the priority - combat is secondary.",
       "doors": [],
       "traps": [
         {
