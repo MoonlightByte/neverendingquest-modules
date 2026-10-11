@@ -208,7 +208,7 @@
     "Fear boons do not stack. If multiple are present (Shrine bell, Cornfields token, Grave Courage), use the strongest source.",
     "Ember Gourd counter: When a PC presents it within 10 ft of the Pumpkin King, impose disadvantage on the King's saving throws until end of that PC's next turn; if the King then takes fire damage before that turn ends, his regeneration is disabled on his next turn.",
     "Boss phases: Spawn 2 Pumpkin Stalkers at ~70% HP and again at ~30% HP; enable fear aura in phase 2.",
-    "Corn Maze routing: If party holds the Lanternwise Charm, grant advantage once on 'avoid getting lost' checks in CMS001.",
-    "Noose Wraith win effect: apply 'Grave Courage' (-1 DC on fear saves) to the party during HLF001."
+    "Corn Maze routing: If party holds the Lanternwise Charm, grant advantage once on 'avoid getting lost' checks in the Wailing Cornfields (CMS001).",
+    "Noose Wraith win effect: apply 'Grave Courage' (-1 DC on fear saves) to the party during the Hollow Field (HLF001)."
   ]
 }
