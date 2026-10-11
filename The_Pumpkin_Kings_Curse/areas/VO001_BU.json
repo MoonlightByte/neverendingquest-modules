@@ -142,7 +142,8 @@
       ],
       "plotHooks": [
         "Fenric mentions several members have recently vanished at dusk after hearing strange piping from the woods.",
-        "Amanita offers a rare herb to anyone who can retrieve her lost satchel, last seen near Lantern Hollow Cottage."
+        "Amanita offers a rare herb to anyone who can retrieve her lost satchel, last seen near Lantern Hollow Cottage.",
+        "This morning a field hand saw a pale, shaggy dog in a festival-ribbon collar dash past the lodge toward the Shrouded Stalk Maze (C01), the cornfield entrance. It is Turnip, the lost dog from the Twilight Veil Gate."
       ],
       "dmInstructions": "If party asks about dangers: Prompt for Persuasion DC 12 to get full info about Cornfields.",
       "doors": [
@@ -205,7 +206,7 @@
       ],
       "plotHooks": [
         "Silas warns of a masked figure glimpsed beyond the gate during the last festival night.",
-        "A local child begs the party for help finding her lost dog, last seen running into the woods by the gate."
+        "A local girl begged Silas for help finding her lost dog, Turnip, a pale, shaggy dog in a festival-ribbon collar, last seen running into the woods by the gate. She is not waiting at the gate: Silas passes on her plea. If the party brings Turnip back here, Silas sends for her and gives the party the iron festival token in thanks."
       ],
       "dmInstructions": "Silas may allow or deny passage based on party behavior or festival curfews. Use the lingering twilight as an opportunity for minor magical effects or unsettling omens.",
       "doors": [
@@ -345,14 +346,15 @@
         }
       ],
       "lootTable": [
-        "Lanternwise Charm (advantage once vs. getting lost in CMS001)",
+        "Lanternwise Charm (advantage once vs. getting lost in the Wailing Cornfields (CMS001))",
         "Traveler's pack (contains rope, tinderbox, and dried rations)",
         "Silver coin purse (15 gp, dropped by a previous victim)",
         "Carved wooden charm (protection from beasts, one use)"
       ],
       "plotHooks": [
         "Fresh bloodstains on the lantern post suggest recent stirge attacks on travelers.",
-        "A torn piece of parchment caught on a tree branch contains a partial map to hidden locations deeper in the Verge."
+        "A torn piece of parchment caught on a tree branch contains a partial map to hidden locations deeper in the Verge.",
+        "Turnip's small paw prints circle the lantern post and double back toward the gate and the lodge road; the lost dog did not stop here."
       ],
       "dmInstructions": "On approach: Call createEncounter with 2-3 Stirges (25 XP each). On acquiring Lanternwise Charm: Call updateCharacterInfo.",
       "doors": [],

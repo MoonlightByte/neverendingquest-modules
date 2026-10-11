@@ -178,7 +178,7 @@
         "A child is convinced the scarecrow effigy moves when no one is looking.",
         "Festival witnesses saw scarecrows moving at the field edge—pointing toward the Wailing Cornfields (CMS001)."
       ],
-      "dmInstructions": "When party investigates scarecrow: Prompt for Perception DC 13. On success, reveal muddy footprints pointing toward CMS001.",
+      "dmInstructions": "When party investigates scarecrow: Prompt for Perception DC 13. On success, reveal muddy footprints pointing toward the Wailing Cornfields (CMS001).",
       "doors": [],
       "traps": [],
       "dcChecks": [
