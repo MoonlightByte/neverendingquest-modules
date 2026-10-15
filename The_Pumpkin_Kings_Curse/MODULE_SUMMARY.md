@@ -32,7 +32,7 @@ A cursed harvest festival erupts into chaos as the Pumpkin King rises, forcing t
 - **Objective**: Uncover the cause of the ominous omens threatening the Harvest Festival Green before panic spreads among the townsfolk.
 
 ### The Wailing Cornfields (CMS001)
-- **Description**: Endless walls of tall, rustling stalks form a shifting labyrinth across the land, where whispered cries ride the night wind and unseen things brush against wanderers in the gloom. Travelers who stray from the narrow dirt paths report disorienting echoes and sudden, chilling gusts that hint at the fields' haunted reputation.
+- **Description**: Tall rows of rustling corn stretch across the land, cut by trampled farm paths that fork and meet among the stalks. Whispered cries ride the night wind, and unseen things rustle the corn just beyond the paths, lending the fields their haunted reputation.
 - **Danger Level**: medium
 - **Recommended Level**: 2
 - **Locations**: 4
@@ -44,8 +44,8 @@ A cursed harvest festival erupts into chaos as the Pumpkin King rises, forcing t
 - **Danger Level**: high
 - **Recommended Level**: 2
 - **Locations**: 4
-- **Plot**: Whispers in the Corn Maze
-- **Objective**: Rescue Widow Grella and her grandson Tom from the Corn Maze before the Pumpkin King claims his harvest tithe.
+- **Plot**: Whispers in the Cornfields
+- **Objective**: Rescue Widow Grella and her grandson Tom from the Wailing Cornfields before the Pumpkin King claims his harvest tithe.
 
 ### The Weeping Necropolis (TOG001)
 - **Description**: Tombstones jut like broken teeth from fog-shrouded moors, while the chill air carries the faint sound of mournful whispers and the sickly-sweet scent of decay. Shadows writhe between crumbling mausoleums, and even the bravest souls sense unseen eyes watching from every moss-clad crypt.

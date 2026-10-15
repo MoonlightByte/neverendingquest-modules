@@ -143,7 +143,7 @@
       "plotHooks": [
         "Fenric mentions several members have recently vanished at dusk after hearing strange piping from the woods.",
         "Amanita offers a rare herb to anyone who can retrieve her lost satchel, last seen near Lantern Hollow Cottage.",
-        "This morning a field hand saw a pale, shaggy dog in a festival-ribbon collar dash past the lodge toward the Shrouded Stalk Maze (C01), the cornfield entrance. It is Turnip, the lost dog from the Twilight Veil Gate."
+        "This morning a field hand saw a pale, shaggy dog in a festival-ribbon collar dash past the lodge toward the Cornfield Fork (C01), the cornfield entrance. It is Turnip, the lost dog from the Twilight Veil Gate."
       ],
       "dmInstructions": "If party asks about dangers: Prompt for Persuasion DC 12 to get full info about Cornfields.",
       "doors": [
@@ -346,7 +346,7 @@
         }
       ],
       "lootTable": [
-        "Lanternwise Charm (advantage once vs. getting lost in the Wailing Cornfields (CMS001))",
+        "Lanternwise Charm (advantage once on a Perception or Survival check in the Wailing Cornfields (CMS001))",
         "Traveler's pack (contains rope, tinderbox, and dried rations)",
         "Silver coin purse (15 gp, dropped by a previous victim)",
         "Carved wooden charm (protection from beasts, one use)"
